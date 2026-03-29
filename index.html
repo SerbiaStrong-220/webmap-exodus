@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SS220 - Space Station 14 Webmap</title>
+    <title>SS220 - Exodus Webmap</title>
 
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,11 +19,21 @@
     <div class="layer3" id="layer3"></div>
 
     <div id="map"></div>
+
+    <div class="error-container" id="error-container" style="display: none;">
+      <div class="error-box">
+        <h1>404</h1>
+        <p>Карта не найдена</p>
+        <button class="error-btn" onclick="window.location.href='/'">Вернуться к картам</button>
+      </div>
+    </div>
+
     <script type="module" src="./shitcode.js"></script>
 
     <div class="select-menu" id="map-select">
       <div class="select-btn">
         <span class="sBtn-text">Map</span>
+        <input type="text" class="search-input" placeholder="Поиск карты..." style="display: none;">
         <i class="bx bx-chevron-down"></i>
       </div>
 
