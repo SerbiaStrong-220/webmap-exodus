@@ -19,8 +19,9 @@
 </script>
 
 <!-- TODO: Don't forget about SEO -->
+<!-- UPD. I forgot :D -->
 
-<div class="w-full p-8 flex flex-row gap-8 h-full min-h-fit">
+<div class="w-full p-8 flex flex-col md:flex-row gap-8 flex-1">
 	<Filter
 		className="sticky top-20"
 		{filters}
@@ -29,7 +30,7 @@
 		engineOptions={shuttleConfig.engines}
 		onReset={resetFilters}
 	/>
-	<div class="panel-secondary w-full h-full px-2.5 py-3 flex flex-col gap-[20px]">
+	<div class="panel-secondary w-full px-2.5 py-3 flex flex-col gap-[20px] flex-1">
 		<span class="text-(--text-primary-2)">Результаты поиска:</span>
 		<div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
 			{#each filteredShuttles as shuttle (shuttle.id)}

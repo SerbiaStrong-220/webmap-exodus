@@ -13,8 +13,10 @@
 	<title>{configJson.name}</title>
 </svelte:head>
 
-<div class="w-full flex flex-col h-full min-h-fit">
+<div class="w-full flex flex-col h-full min-h-fit flex-1">
     <Header />
-    {@render children()}
+    <main class="flex-1 flex flex-col">
+        {@render children()}
+    </main>
     <Footer />
 </div>
