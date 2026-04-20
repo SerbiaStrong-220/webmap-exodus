@@ -1,0 +1,99 @@
+# this one action clones game repository, and runs it to generate map images and JSON file containing all shuttles data
+# after it pushes all the generated data to the generated/{datetime} branch
+# which then will be automatically deployed to the gh-pages
+name: Generate webmap
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate webmap data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Exodus
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: SerbiaStrong-220/Monolith
+          path: monolith
+          ref: master
+
+      - name: Setup Submodule
+        run: |
+          cd monolith
+          git submodule update --init --recursive
+
+      - name: Update Engine Submodules
+        run: |
+          cd monolith/RobustToolbox/
+          git submodule update --init --recursive
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v4.1.0
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install Dependencies
+        run: |
+          cd monolith
+          dotnet restore
+
+      - name: Build Server
+        run: |
+          cd monolith
+          dotnet build Content.Server --configuration Release --no-restore /p:WarningsAsErrors=nullable /m
+
+      - name: Generate JSON blobs for prototypes
+        run: |
+          cd monolith
+          dotnet ./bin/Content.Server/Content.Server.dll --cvar autogen.destination_file=data.json
+        continue-on-error: true
+
+      - name: Build Map Renderer
+        run: |
+          cd monolith
+          dotnet build Content.MapRenderer --configuration Release --no-restore /p:WarningsAsErrors=nullable /m
+
+      - name: Run Map Renderer
+        run: |
+          cd monolith
+          find Resources/Maps/_Mono/Shuttles Resources/Maps/_Exodus/Shuttles -name "*.yml" -type f -exec dotnet run --project Content.MapRenderer --no-build -- {} +
+        continue-on-error: true
+
+      - name: Checkout current repo
+        uses: actions/checkout@v4.2.2
+        with:
+          path: current-repo
+
+      - name: Create timestamped branch name
+        id: vars
+        run: |
+          echo "BRANCH_NAME=generated/$(date +'%Y%m%d_%H%M%S')" >> $GITHUB_ENV
+
+      - name: Create new branch in current repo
+        run: |
+          cd current-repo
+          git checkout -b ${{ env.BRANCH_NAME }}
+
+      - name: Copy generated files into current repo
+        run: |
+          cp monolith/bin/Content.Server/data/vessels_data.json current-repo/src/lib/data/shuttles.json
+          find monolith/Resources/MapImages/ -name "*.png" -exec cp -t current-repo/static/ {} +
+
+      - name: Commit and push
+        run: |
+          cd current-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/
+          git add static/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Generate webmap data for ${{ env.BRANCH_NAME }}"
+            git push origin ${{ env.BRANCH_NAME }}
+          fi

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bt-y-atom",
+    "name": "BT-Y Atom",
+    "description": "Небольшой боевой шаттл с упором на броню и автономность.",
+    "price": 148000,
+    "group": "blackmarket",
+    "size": "small",
+    "classes": ["fighter", "mercenary"],
+    "engines": ["apu", "welding"],
+    "image": "/atom.png"
+  },
+  {
+    "id": "msc-lyra",
+    "name": "MSC Lyra",
+    "description": "Медицинский шаттл для выездных операций и стабилизации экипажа.",
+    "price": 112000,
+    "group": "medical",
+    "size": "small",
+    "classes": ["medical"],
+    "engines": ["ame"],
+    "image": "/atom.png"
+  },
+  {
+    "id": "ex-vanguard",
+    "name": "EX Vanguard",
+    "description": "Экспедиционный универсал с усиленной дальностью и складом.",
+    "price": 176000,
+    "group": "expedition",
+    "size": "medium",
+    "classes": ["expedition", "cargo"],
+    "engines": ["teg"],
+    "image": "/atom.png"
+  },
+  {
+    "id": "nfsd-warden",
+    "name": "NFSD Warden",
+    "description": "Патрульный корабль для задержаний и сопровождения конвоев.",
+    "price": 189000,
+    "group": "nfsd",
+    "size": "medium",
+    "classes": ["patrol", "detainment"],
+    "engines": ["rtg"],
+    "image": "/atom.png"
+  }
+]
