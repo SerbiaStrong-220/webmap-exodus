@@ -1,46 +1,2445 @@
 [
   {
-    "id": "bt-y-atom",
+    "id": "Carrion",
+    "name": "ELH Carrion",
+    "description": "A fighter armed with 4x 90mm DRAVON autocannons and a GPOB-L bomb bay, built for reconnaissance and extreme-speed skirmishing.",
+    "price": 29000,
+    "group": "blackmarket",
+    "size": "small",
+    "classes": [
+      "pirate",
+      "fighter"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/carrion-0.png"
+  },
+  {
+    "id": "Framework",
+    "name": "UNJ Framework",
+    "description": "The cheapest hunk of junk this side of the Rogue. Not meant to last, but has the potential to be anything.",
+    "price": 10000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "civilian",
+      "cargo"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/framework-0.png"
+  },
+  {
+    "id": "Flyssa",
+    "name": "TSF-SKR Flyssa-K",
+    "description": "Lended over from the TSFN for you marines. A one-ship fleet on this scale of combat.",
+    "price": 1225950,
+    "group": "security",
+    "size": "large",
+    "classes": [
+      "capital",
+      "destroyer",
+      "medical",
+      "chemistry",
+      "pursuit",
+      "patrol"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/flyssa-0.png"
+  },
+  {
+    "id": "Comet",
+    "name": "CDM Comet",
+    "description": "A de-militarized, jack-of-all-trades, utility vessel with expeditionary functionality.",
+    "price": 120000,
+    "group": "expedition",
+    "size": "large",
+    "classes": [
+      "expedition",
+      "science",
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/comet-0.png"
+  },
+  {
+    "id": "Kopye",
+    "name": "BYP Kopye",
+    "description": "A thin, pointed ram made to fit the connection port of the Ledokol.",
+    "price": 45000,
+    "group": "custom",
+    "size": "large",
+    "classes": [],
+    "engines": [],
+    "image": "/kopye-0.png"
+  },
+  {
+    "id": "Femur",
+    "name": "DIS Femur",
+    "description": "A power hungry menace, the DIS Femur is a medium-class FTL capable vessel. Shaped for and equipped with all the necessary tools for aggressive boarding operations. While Drake Industries is generally known for their non aggression policy within the sector, they recently started pumping out this mean hull, no public statements were given by the board of directives.",
+    "price": 93900,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/femur-0.png"
+  },
+  {
+    "id": "Mudskipper",
+    "name": "SKR Mudskipper",
+    "description": "A heavily modified Peregrine for combat usage. The inner bays have had the outermost layers collapsed for an additional layer of armor, the interior has been rearranged for a shield generator, and the weapon mounts now carry 4 Draupnir rotary cannons.",
+    "price": 75000,
+    "group": "scrap",
+    "size": "medium",
+    "classes": [
+      "scrapyard",
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/mudskipper-0.png"
+  },
+  {
+    "id": "Saturn",
+    "name": "PDW-HSS Saturn",
+    "description": "Commissioned by the Sultanate for dire need for heavy firepower against the Federation on their borders. A one of a kind ship, specifically designed with the vanguard stationed in Helios.",
+    "price": 1540950,
+    "group": "blackmarket",
+    "size": "large",
+    "classes": [
+      "pirate",
+      "capital",
+      "destroyer",
+      "medical",
+      "chemistry",
+      "pursuit",
+      "patrol"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/saturn-0.png"
+  },
+  {
+    "id": "Drakon",
+    "name": "NCS Drakon",
+    "description": "A fast brawler with heavy armor and ballistic armaments.",
+    "price": 85290,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "corvette"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/drakon-0.png"
+  },
+  {
+    "id": "Hammerhead",
+    "name": "UI-SKR Hammerhead",
+    "description": "A multipurpose mercenary ship with an armament of 4 225mm cannons, 4 20mm PD guns, and 6 57mm autocannons. Lacks a bit in protection compared to proper military ships of this size.",
+    "price": 200000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "patrol",
+      "corvette",
+      "science",
+      "salvage",
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/hammerhead-0.png"
+  },
+  {
+    "id": "MotleyAnne",
+    "name": "PDV-IED Motley Anne",
+    "description": "A support mothership designed to reinforce an engagements back-line with mech and drone ensemble or closer resupplies.",
+    "price": 280000,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "patrol"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/motleyanne-0.png"
+  },
+  {
+    "id": "Kunai",
+    "name": "MI-COR Kunai",
+    "description": "A high-end Martian Corvette, legitimately salvaged by Militia Ironworks. Armed with 4 30mms, 2 20mms, 1 torpedo tube and 1 AK 50mm cannon. Includes a small medical bay and crew quarters with a galley for long patrols.  FTL capable.",
+    "price": 130700,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/kunai-0.png"
+  },
+  {
+    "id": "Pillbox",
+    "name": "TPC Pillbox",
+    "description": "A modified Takeaway shuttle, turned from a nice little restaurant into a travelling pharmacy and bar, with everything a chemist would need to peddle their wares. The Solars were sniped, and the generator replaced with a Pinch Fusion reactor",
+    "price": 91000,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/pillbox-0.png"
+  },
+  {
+    "id": "Tarantula",
+    "name": "TSF-SVE Tarantula",
+    "description": "A durable ship built for sustained close-range engagements, equipped with 4 Cerberus plasma scattercannons and 2 Marauders to melt ships away.",
+    "price": 140850,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/tarantula-0.png"
+  },
+  {
+    "id": "MClass",
+    "name": "TSF-SKR M-Class Salvage Carrier",
+    "description": "A large salvage carrier with space for 2 salvage microshuttles to dock.",
+    "price": 155000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/mclass-0.png"
+  },
+  {
+    "id": "QJ340",
+    "name": "GS QJ-340 Support Fighter",
+    "description": "A frontloaded fighter with 2 L1 Phalanxes, a Vanyk Missile pod and a Rubicon EMP launcher.",
+    "price": 33600,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/qj340-0.png"
+  },
+  {
+    "id": "Aldebaran",
+    "name": "TSF-PIN Aldebaran",
+    "description": "A frontal up-puncher corvette equipped with two cyrexas for long range engagements and torpedoes for heavier targets and close range.",
+    "price": 160200,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "corvette"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/aldebaran-0.png"
+  },
+  {
+    "id": "Remontnik",
+    "name": "PPU Remontnik",
+    "description": "A USSP engineering and mining vessel designed by PPU. Comes with an FTL, potatoes with butter and alcohol in the fridge.",
+    "price": 102000,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "engineering",
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/remontnik-0.png"
+  },
+  {
+    "id": "Zephyr",
+    "name": "TSF-SKR Zephyr",
+    "description": "A fighter refurbished from recovered remnant Razor hulls.",
+    "price": 16400,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/zephyr-0.png"
+  },
+  {
+    "id": "Tanuki",
+    "name": "MI-COR Tanuki",
+    "description": "The Tanuki is a rugged, Militarised cargo shuttle from Militia Ironworks. Featuring an easily modifiable cargo bay and heavy-duty armor, it is designed to be the ultimate framework (and drone hunter) for Militia and Independent operators. It carries a healthy amount of laser firepower for its size, sporting 2 Prometheus Laser Cannons for long-range effective fire and 3 Cerberus Plasma Scattercannons for melting hostiles in close range. Houses a small galley and medbay, standard for militia ships, and is FTL capable.",
+    "price": 115000,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/tanuki-0.png"
+  },
+  {
+    "id": "Shiv",
+    "name": "TSF-PIN Shiv",
+    "description": "The workhorse of industry of the Solarian fleets, comes with an artifact research bay and good mining capabilities.",
+    "price": 60000,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "salvage",
+      "science"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/shiv-0.png"
+  },
+  {
+    "id": "Horsefly",
+    "name": "GSI Horsefly",
+    "description": "A light artillery ship made of scrap fused by a deranged group of mercenaries, it\u0027s designed to fire a single shell then die. Isn\u0027t supplied with any form of atmosphere, bring your own suit.",
+    "price": 32500,
+    "group": "scrap",
+    "size": "small",
+    "classes": [
+      "scrapyard",
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/horsefly-0.png"
+  },
+  {
+    "id": "Spessbite",
+    "name": "PTI Spessbite",
+    "description": "A food truck, equipped with all manners of amenities cramped into an almost claustrophobic interior. Very cozy, though.",
+    "price": 35000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "civilian",
+      "kitchen",
+      "botany"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/spessbite-0.png"
+  },
+  {
+    "id": "Ravager",
+    "name": "Ravager",
+    "description": "Capital class security mothership made for fast neutralization of civilian threats.",
+    "price": 875800,
+    "group": "sr",
+    "size": "large",
+    "classes": [
+      "science"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/ravager-0.png"
+  },
+  {
+    "id": "Noble",
+    "name": "SKR Noble",
+    "description": "A salvage vessel outfitted with both a scrap and ore processor, plus 4 mining pulsers. Outside of that, its quite lacking, outside of a highly efficient pinch-fusion generator.",
+    "price": 52100,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/noble-0.png"
+  },
+  {
+    "id": "Svinya",
+    "name": "UW Svinya",
+    "description": "A compact attack craft, bristling with small caliber armament.",
+    "price": 39000,
+    "group": "ussp",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/svinya-0.png"
+  },
+  {
+    "id": "Iapetus",
+    "name": "TSF-SKR Iapetus",
+    "description": "A basic artifact research ship, with minimal armament.",
+    "price": 36900,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "science"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/iapetus-0.png"
+  },
+  {
+    "id": "caracara",
+    "name": "MI-COR Caracara",
+    "description": "A Militia Ironworks salvage frigate fitted with an Apollo super\u2011mining laser. Its forward cockpit offers a clear view of the dig site. Includes an  ultra\u2011efficient pinch reactor, basic FTL, and a compact galley for long shifts in the belt. When paired with the Apollo, its three 20\u202Fmm mounts provide adequate defensive fire.",
+    "price": 71000,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "salvage",
+      "frigate"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/caracara-0.png"
+  },
+  {
+    "id": "Worm",
+    "name": "Worm",
+    "description": "Micro-fighter equipped with EMP Launcher. Drone server included.",
+    "price": 12500,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/worm-0.png"
+  },
+  {
+    "id": "Strayk",
+    "name": "NCS Strayk",
+    "description": "A poorly equipped and cramped strike craft. Outfitted with 2 torpedo launchers and 1 30mm chaingun, and capable of detecting invisible targets.",
+    "price": 45820,
+    "group": "ussp",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/strayk-0.png"
+  },
+  {
+    "id": "StratoRat",
+    "name": "HES Strato-Rat",
+    "description": "A extremley basic, cost cutting gas mining vessel. Features a 120 KMol gas chamber, and single M25 Mining Pulser.",
+    "price": 15000,
+    "group": "custom",
+    "size": "micro",
+    "classes": [
+      "atmospherics"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/stratorat-0.png"
+  },
+  {
+    "id": "Spica",
+    "name": "TSF-PIN Spica",
+    "description": "A beefed up hull and the light frontline mainstay of the TSF fleets. A suprising weapons package in a small frame, made to engage larger targets.",
+    "price": 117000,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "patrol",
+      "pursuit"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/spica-0.png"
+  },
+  {
+    "id": "QJ270",
+    "name": "SKR QJ-270 Heavy Fighter",
+    "description": "Equipped with 2 57mms, and 2 light munitions bays. Unlike other fighters, the hull is plastitanium instead of plasteel, bringing much better survivability.",
+    "price": 30300,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/qj270-0.png"
+  },
+  {
+    "id": "Mock",
+    "name": "IED Brawler Drone \u0027Mock\u0027",
+    "description": "A lightly armored fighter equipped with 2 90mm autocannons for harassing targets and taking down enemy fighters.",
+    "price": 13500,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/mock-0.png"
+  },
+  {
+    "id": "Fortunate",
+    "name": "UNSA Fortunate",
+    "description": "Part of the UNSA\u0027s vanguard fleet design, the Fortunate is an attack ship, equipped with frontal armor and guns in order to pierce through hulls. This design includes a boarding port, capable delivering soldiers to the enemy\u0027s busted hull in order to subdue and eliminate the threats in close quarters.",
+    "price": 152000,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition",
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/fortunate-0.png"
+  },
+  {
+    "id": "Sellsword",
+    "name": "UW Sellsword",
+    "description": "An escort picket comprising a claustrophobic, cast-plastitanium coffin enrobing a 255mm gun and VESPERA missile pod. Combat life expectancy of 4 minutes. Has a military IFF designation.",
+    "price": 56000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/sellsword-0.png"
+  },
+  {
+    "id": "Tick",
+    "name": "GSI Tick",
+    "description": "A hyperlight bomber made of scrap, fitted with a GPOB-L fighter bay and 2 57mms, it has no will to live.",
+    "price": 15000,
+    "group": "scrap",
+    "size": "small",
+    "classes": [
+      "scrapyard",
+      "pursuit"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/tick-0.png"
+  },
+  {
+    "id": "Baeg",
+    "name": "Z-22 Baeg",
+    "description": "Ironically named it\u0027s tiny, compact and primarily used for short excursions or small time mining operations by IPCs...or organics that misunderstand its name, or are just desperate.",
+    "price": 6000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "civilian",
+      "salvage"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/baeg-0.png"
+  },
+  {
+    "id": "Leaf",
+    "name": "PTR Leaf",
+    "description": "A retired warship, the majority of it\u0027s hull is carved out to live it\u0027s twilight years as a botany/chemistry ship.",
+    "price": 69500,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "botany",
+      "chemistry"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/leaf-0.png"
+  },
+  {
+    "id": "Hoplite",
+    "name": "TSF-PIN Hoplite",
+    "description": "A patrol craft meant to intercept smugglers and light enemy craft with powerful engines and EMPs. It is equipped with 2 RUBICON, two plasma pulsers and two MARAUDER plasma cannons",
+    "price": 78500,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "patrol",
+      "pursuit"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/hoplite-0.png"
+  },
+  {
+    "id": "Bucket",
+    "name": "Bucket",
+    "description": "The janitorial wing of the combined service ship.",
+    "price": 18000,
+    "group": "sr",
+    "size": "micro",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/bucket-0.png"
+  },
+  {
+    "id": "Natisk",
+    "name": "NCS Natisk",
+    "description": "A tank with a layer of reinforced walls under its exterior hull, ensuring its able to send out obscene amounts of firepower.",
+    "price": 53500,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/natisk-0.png"
+  },
+  {
+    "id": "Inertia",
+    "name": "IED Interceptor Drone \u0027Inertia\u0027",
+    "description": "A fighter equipped with high mobility and two RAC-30 Draupnirs for shooting down artillery fire.",
+    "price": 15000,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "fighter",
+      "pursuit"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/inertia-0.png"
+  },
+  {
+    "id": "Duran",
+    "name": "SRA Duran",
+    "description": "A general-purpose expeditionary vessel with a complementary kitchen. Cheap, slow, and has the structural integrity of a crunchy autumn leaf, but by god does it have soul.",
+    "price": 40600,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/duran-0.png"
+  },
+  {
+    "id": "Hazel",
+    "name": "BT-Y Hazel",
+    "description": "A small, cramped shuttle featuring a Syndicate 3 barreled 220mm Battery and 2 ASM-302s, well armored for its size. Does not have an FTL drive. A cheap option but realiability is questionable.",
+    "price": 67000,
+    "group": "blackmarket",
+    "size": "small",
+    "classes": [
+      "pirate",
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/hazel-0.png"
+  },
+  {
+    "id": "Altair",
+    "name": "TSF-PIN Altair",
+    "description": "A heavily-armed frigate with 4 cyrexa, laser cannons and its main armament, a CHARON mass driver. Made as a heavy frontline brawler and to serve as a fleet anchor for smaller forces.",
+    "price": 425000,
+    "group": "security",
+    "size": "large",
+    "classes": [
+      "frigate",
+      "pursuit",
+      "patrol"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/altair-0.png"
+  },
+  {
+    "id": "Infiltrator",
+    "name": "Infiltrator",
+    "description": "A light syndicate frigate meant for raiding enemy stations. Armed to the teeth with missiles and Hydras.",
+    "price": 275000,
+    "group": "syndicate",
+    "size": "large",
+    "classes": [
+      "syndicate"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/infiltrator-0.png"
+  },
+  {
+    "id": "Rig",
+    "name": "DIS Rig",
+    "description": "A heavy-class flying refinery manufactured by Drake Industries Shipyards. Able to extract, collect and process materials then refine them into whatever the ever changing Colossean market demands.  Comes equipped with two flare launchers for missile defense and four mining pulsers, along with mining bumpers to push minerals directly onto the built in belt system.",
+    "price": 104900,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/rig-0.png"
+  },
+  {
+    "id": "Pacem",
+    "name": "Pacem",
+    "description": "A patrol corvette for inner ring defense and patrol. Recommended crew of 2.",
+    "price": 130000,
+    "group": "sr",
+    "size": "medium",
+    "classes": [
+      "patrol"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/pacem-0.png"
+  },
+  {
+    "id": "Archer",
+    "name": "TSF-SKR Archer",
+    "description": "A combat ship outfitted with 4 plasma turrets and 6 light autocannons. This ship has a military IFF designation.",
+    "price": 85200,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/archer-0.png"
+  },
+  {
+    "id": "Trilobit",
+    "name": "Trilobit",
+    "description": "The \u0022Trilobit\u0022 is a massive long-range expedition vessel. Equipped with a full suite of autonomous life support, navigation, and defense systems, allowing the crew to exist in isolation for years without external support.",
+    "price": 314159,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "expedition"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/trilobit-0.png"
+  },
+  {
+    "id": "Triage",
+    "name": "MI Triage",
+    "description": "A extremely compact medical ship that packs a punch.",
+    "price": 49200,
+    "group": "medical",
+    "size": "small",
+    "classes": [
+      "medical"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/triage-0.png"
+  },
+  {
+    "id": "Velios",
+    "name": "WLV-Velios",
+    "description": "A medical vessel designed for multifunction capabilities. Includes a medbay, cryogenics setup, surgery room, and a rescue supply room. While large in size and reinforced with plastitanium walls, the thrusters still provide enough speed for rapid response to medical calls.",
+    "price": 76080,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/velios-0.png"
+  },
+  {
+    "id": "Andromeda",
+    "name": "TSF-CRSW Andromeda",
+    "description": "A experimental heavy frigate, with heavy burst frontal firepower and fast maneuveability.",
+    "price": 320000,
+    "group": "security",
+    "size": "large",
+    "classes": [
+      "frigate"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/andromeda-0.png"
+  },
+  {
+    "id": "Ferz",
+    "name": "PDW Ferz",
+    "description": "No description yet",
+    "price": 267000,
+    "group": "blackmarket",
+    "size": "small",
+    "classes": [
+      "pirate",
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/ferz-0.png"
+  },
+  {
+    "id": "Siebel",
+    "name": "MI Siebel",
+    "description": "The Siebel is a militia owned and designed ship, designed with Chimera combat in mind, however; many use it for expeditionary exploration and combat.",
+    "price": 175000,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition",
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/siebel-0.png"
+  },
+  {
+    "id": "Sentinel",
+    "name": "TSF-SKR Sentinel",
+    "description": "An armored and shielded corvette with 2 front facing Bofors cannons, 4 MARAUDER plasma cannons, and 2 rear L85 20mms for PD.",
+    "price": 210200,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "corvette"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/sentinel-0.png"
+  },
+  {
+    "id": "Artemis",
+    "name": "HME Artemis",
+    "description": "The Artemis is a compact ambulance ship, designed to rescue patients quickly, and exfiltrate as fast as they arrived.",
+    "price": 34000,
+    "group": "medical",
+    "size": "small",
+    "classes": [
+      "medical"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/artemis-0.png"
+  },
+  {
+    "id": "Tethys",
+    "name": "PDV Tethys",
+    "description": "A medical Phaethon Dynasty shuttle. It comes equipped with 4 90mm turrets and 2 tovek missile launchers. Hot damn.",
+    "price": 72000,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/tethys-0.png"
+  },
+  {
+    "id": "Scallywag",
+    "name": "RSC-Scallywag",
+    "description": "Emerging from the depths of Theseus, an unknown maker approximitely a century ago, Scallywag wasnt made with schematics, months of research or brainstorming of old engineers.. She was made with resources at hand, designed to be a spearhad against those who sought to rip off \u0022honest\u0022 citizens off of their nests and establish justice and law as they liked to call it...",
+    "price": 120000,
+    "group": "scrap",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "scrapyard"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/scallywag-0.png"
+  },
+  {
+    "id": "Hunter",
+    "name": "Hunter",
+    "description": "A cheap, armored personnel carrier armed with 4 100mm autocannons.",
+    "price": 50000,
+    "group": "syndicate",
+    "size": "small",
+    "classes": [
+      "syndicate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/hunter-0.png"
+  },
+  {
+    "id": "Takeaway",
+    "name": "UW Takeaway",
+    "description": "An aptly named medium botanical-kitchen vessel with a customer-facing gantry for ordering to-go. Also comes with dine-in.",
+    "price": 64000,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "civilian",
+      "kitchen",
+      "botany"
+    ],
+    "engines": [
+      "uranium",
+      "solar"
+    ],
+    "image": "/takeaway-0.png"
+  },
+  {
+    "id": "Jitterbug",
+    "name": "SE Jitterbug",
+    "description": "A Botanical shuttle, comes with ten trays and some supplies to get you going. Comes in the unique shape of a bug, how cute.",
+    "price": 36050,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "civilian",
+      "botany"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/jitterbug-0.png"
+  },
+  {
+    "id": "Sabinemk2",
+    "name": "ZOB Sabine MkII",
+    "description": "The Sabine MkII is a combat capable modification of the CIV class hull Sabine, modified and retrofitted by the Zealots of Balaam for it\u0027s use in both planetary expeditions and enacting the will of their prophet. This ship has an Military IFF",
+    "price": 62000,
+    "group": "expedition",
+    "size": "large",
+    "classes": [
+      "expedition",
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/sabinemk2-0.png"
+  },
+  {
+    "id": "Claymore",
+    "name": "ZOB Claymore",
+    "description": "A full frontal assault ship, made by the Zealots of Balaam in order to enact the will of their prophet. Features a devastating front facing armnament, much to the detriment of everything else. Any mercenary looking to unleash an awesome frontal barrage can use this ship for their own purposes. Has a MIL designation.",
+    "price": 200000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "uranium",
+      "rtg"
+    ],
+    "image": "/claymore-0.png"
+  },
+  {
+    "id": "Hermes",
+    "name": "Hermes",
+    "description": "The mailing segment of the combined service ship, designed for speed above all. This one is designed and produced by The Pantheon Collective.",
+    "price": 37500,
+    "group": "sr",
+    "size": "small",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/hermes-0.png"
+  },
+  {
+    "id": "Padval",
+    "name": "PB Padval",
+    "description": "The Padval is a factory and store, all in one. This ship is dedicated to producing goods to sell to the colossus sector at large.",
+    "price": 79000,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/padval-0.png"
+  },
+  {
+    "id": "Solarsail",
+    "name": "Solarsail",
+    "description": "A personal transport and mobile office for the colonial liaison. Part of the combined service ship.",
+    "price": 25500,
+    "group": "sr",
+    "size": "small",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/solarsail-0.png"
+  },
+  {
+    "id": "Sirius",
+    "name": "SKR Sirius",
+    "description": "An expedition ship outfitted with 4 57mms, 2 90mms, and a full chemistry setup.",
+    "price": 80750,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/sirius-0.png"
+  },
+  {
+    "id": "Saintie",
+    "name": "PDW Saintie",
+    "description": "An expensive Frigate designed by the Phaethon Divine Shipworks, utilised by imperial vanguard for swift ambush attacks against enemy fleets.",
+    "price": 345000,
+    "group": "blackmarket",
+    "size": "large",
+    "classes": [
+      "pirate",
+      "frigate"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/saintie-0.png"
+  },
+  {
+    "id": "McChicken",
+    "name": "AES McChicken",
+    "description": "A cheap, fried food ship. For those who enjoy ungodly ammounts of calories, now made on the go!.",
+    "price": 28875,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "civilian",
+      "kitchen"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/mcchicken-0.png"
+  },
+  {
+    "id": "McChilly",
+    "name": "AES McChilly",
+    "description": "A small ice cream ship. For when the heat is up, its best to take it- who wrote this shit?.",
+    "price": 17500,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "civilian",
+      "kitchen"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/mcchilly-0.png"
+  },
+  {
+    "id": "Tumour",
+    "name": "TSF-SKR Tumour",
+    "description": "A ugly potato of a carrier. Little armament to defend itself, but carries lathes to support its fighters and other ships.",
+    "price": 68250,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "patrol"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/tumour-0.png"
+  },
+  {
+    "id": "Bratan",
+    "name": "PB Bratan",
+    "description": "A mobile nightclub, cafeteria, hydroponics, and secret drug lab and smuggling ship, all in one package! Brought to you by the Paycheck Bratva.",
+    "price": 142000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "civilian",
+      "kitchen",
+      "botany"
+    ],
+    "engines": [
+      "ame",
+      "solar"
+    ],
+    "image": "/bratan-0.png"
+  },
+  {
+    "id": "Mite",
+    "name": "Mite",
+    "description": "A heap of scrap of unknown origin, seemingly retrofitted by salvagers into a military ship using salvage weaponry. Was found as a derelict in space and now is being resold without even as much as a cleanup.",
+    "price": 45000,
+    "group": "scrap",
+    "size": "small",
+    "classes": [
+      "scrapyard",
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/mite-0.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "TSF-SKR Dagger",
+    "description": "Straight from the shipyards of Sol, this ship is equipped with a mass driver as its main armament for long-range fire support.",
+    "price": 120000,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/dagger-0.png"
+  },
+  {
+    "id": "twilightmk2",
+    "name": "ZOB Twilight MkII",
+    "description": "A CIV-Twilight hull modified with ill-advised retrofits to be a combat capable ship. Mostly used by the desperate and the cheap. EVA protection is required.",
+    "price": 59000,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition",
+      "pursuit"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/twilightmk2-0.png"
+  },
+  {
+    "id": "Borer",
+    "name": "SHS-DIS Borer",
+    "description": "designed by SHM and produced in cooperation with DI, the borer is a cost effective ship for salvaging and derilect scrapping.",
+    "price": 20525,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/borer-0.png"
+  },
+  {
+    "id": "Magus",
+    "name": "SHM Magus",
+    "description": "An armed, PMC-rated medical lighter designed for planetary expeditions.",
+    "price": 69420,
+    "group": "expedition",
+    "size": "medium",
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/magus-0.png"
+  },
+  {
+    "id": "Arkansaw",
+    "name": "COG Arkansaw",
+    "description": "Made by a forgotten cult; it is a Capital sized mech carrier with a dedicated science and mining bay with mining pulsars. Relatively thin armor and runs on 3 bananium generators wired together.",
+    "price": 262000,
+    "group": "expedition",
+    "size": "large",
+    "classes": [
+      "expedition",
+      "science",
+      "salvage"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/arkansaw-0.png"
+  },
+  {
+    "id": "Sulak",
+    "name": "NCS Sulak",
+    "description": "A medium sized destroyer armed with a Charon Massdriver for taking down large targets.",
+    "price": 142500,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "corvette"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/sulak-0.png"
+  },
+  {
+    "id": "Peregrine",
+    "name": "SKR Peregrine",
+    "description": "A dedicated salvage vessel w/ 6 mining autopulsers. No defensive armaments outside of that. Comes with an FTL drive.",
+    "price": 59525,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/peregrine-0.png"
+  },
+  {
+    "id": "Littora",
+    "name": "SKR Littora",
+    "description": "A medium-to-large sized expedition ship with salvage equipment.",
+    "price": 76000,
+    "group": "expedition",
+    "size": "large",
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/littora-0.png"
+  },
+  {
+    "id": "Snakelet",
+    "name": "IED Bomber Drone \u0027Snakelet\u0027",
+    "description": "A front-heavy fighter with a manually reloaded torpedo bay. Designed for hit-and-run bombardments.",
+    "price": 20000,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/snakelet-0.png"
+  },
+  {
+    "id": "Atom",
     "name": "BT-Y Atom",
-    "description": "Небольшой боевой шаттл с упором на броню и автономность.",
+    "description": "No description yet",
     "price": 148000,
     "group": "blackmarket",
     "size": "small",
-    "classes": ["fighter", "mercenary"],
-    "engines": ["apu", "welding"],
-    "image": "/atom.png"
+    "classes": [
+      "pirate",
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/atom-0.png"
   },
   {
-    "id": "msc-lyra",
-    "name": "MSC Lyra",
-    "description": "Медицинский шаттл для выездных операций и стабилизации экипажа.",
-    "price": 112000,
+    "id": "Tokarev",
+    "name": "VIN Tokarev",
+    "description": "A multipurpose ship that can acompany medical staff in exploring the new frontier in research while allways being ready to help those in need.",
+    "price": 120000,
+    "group": "medical",
+    "size": "large",
+    "classes": [
+      "science",
+      "medical"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/tokarev-0.png"
+  },
+  {
+    "id": "Gruznyk",
+    "name": "PPU Gruznyk",
+    "description": "A cramped USSP cargo shuttle, used for transporting legal or illicit goods. Comes with light arnament and armor, aswell as an FTL. Recommended crew size is 1-3 people. Produced by People\u0027s Production Union.",
+    "price": 64200,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "cargo",
+      "patrol"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/gruznyk-0.png"
+  },
+  {
+    "id": "Argent",
+    "name": "TSF-SKR Argent",
+    "description": "A retired frigate gutted out and refurbished for cargo transport.",
+    "price": 61150,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/argent-0.png"
+  },
+  {
+    "id": "Ample",
+    "name": "SKR Ample",
+    "description": "A very light mining shuttle equipped with a PTK-1500e",
+    "price": 6250,
+    "group": "custom",
+    "size": "micro",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/ample-0.png"
+  },
+  {
+    "id": "Sakuratsu",
+    "name": "SKR Sakuratsu",
+    "description": "A xenoarcheology ship with a dedicated, reinforced chamber. Contains mining equipment too.",
+    "price": 58250,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "science",
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/sakuratsu-0.png"
+  },
+  {
+    "id": "Brute",
+    "name": "DIS Brute",
+    "description": "What is essentially a heavy-class cargo freighter is being advertised by the DIS marketing department as a new wonder of cargo transportation. With quadruple the layer of walls to protect your precious cargo while drunk driving.",
+    "price": 77850,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/brute-0.png"
+  },
+  {
+    "id": "Welder",
+    "name": "TSF-ENG Welder",
+    "description": "A multipurpose, utilitarian but cramped vessel envisioned as an all-in-one multitool for ship repair and resource extraction. Capable of detecting cloaked vessels.",
+    "price": 78200,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "patrol",
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/welder-0.png"
+  },
+  {
+    "id": "Stubby",
+    "name": "UW Stubby",
+    "description": "An armored light transport fitted with minimal medical equipment. Cramped, but nimble and tough like a dog.",
+    "price": 31000,
     "group": "medical",
     "size": "small",
-    "classes": ["medical"],
-    "engines": ["ame"],
-    "image": "/atom.png"
+    "classes": [
+      "medical"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/stubby-0.png"
   },
   {
-    "id": "ex-vanguard",
-    "name": "EX Vanguard",
-    "description": "Экспедиционный универсал с усиленной дальностью и складом.",
-    "price": 176000,
+    "id": "Odenta",
+    "name": "MI-COR Odenta",
+    "description": "The Odenta is a heavily armored Medical Destroyer built for high-risk rescues and medical work. Armed with dual Prometheus Laser Cannons, a 255mm Bofors,a Draupnir 30mm Chaingun, 20mm, and PD lasers to shield its onboard Chemical Bay and Cryonics suite. Has MIL IFF.",
+    "price": 112000,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "medical",
+      "chemistry",
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/odenta-0.png"
+  },
+  {
+    "id": "Olympus",
+    "name": "DIS Olympus",
+    "description": "A massive cargo freighter, the pride and joy of DIS. Furnished with an 185 tile dedicated cargo space, a 50 type drive and dedicated shield \u0026 point defense system. In sum all you need to run smooth, large scale transport operations.",
+    "price": 225500,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/olympus-0.png"
+  },
+  {
+    "id": "Buran",
+    "name": "VEF Buran",
+    "description": "USSP capital-sized frigate with tremendous broadside firepower and thick armor. Glory to commissariat.",
+    "price": 320000,
+    "group": "ussp",
+    "size": "large",
+    "classes": [
+      "frigate"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/buran-0.png"
+  },
+  {
+    "id": "Medicus",
+    "name": "UW Medicus",
+    "description": "A trustworthy medical vessel equipped with cryogenics, botany, chemistry, and paramedic capabilities.",
+    "price": 76500,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "medical",
+      "chemistry",
+      "botany"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/medicus-0.png"
+  },
+  {
+    "id": "Tayfun",
+    "name": "NCS Tayfun",
+    "description": "An armored gunship with 4 90mms, 2 30mms, and 2 VESPERA missile pods.",
+    "price": 74200,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "patrol",
+      "corvette"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/tayfun-0.png"
+  },
+  {
+    "id": "Victoria",
+    "name": "IHR Victoria",
+    "description": "A reworked hull from an unknown salvage ship manufacturer refitted for xenoarcheology that still holds onto some of its mining and salvaging capabilities.",
+    "price": 45000,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "science",
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/victoria-0.png"
+  },
+  {
+    "id": "Tzipora",
+    "name": "SKR Tzipora",
+    "description": "An advanced medical ship, outfitted with cryo, chem, and surgical capabilities.",
+    "price": 145530,
+    "group": "medical",
+    "size": "large",
+    "classes": [
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/tzipora-0.png"
+  },
+  {
+    "id": "Akula",
+    "name": "PPU Akula",
+    "description": "A USSP long range harasser, meant for hit and runs. Comes with two dravons and CTLA-25.",
+    "price": 64000,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "patrol"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/akula-0.png"
+  },
+  {
+    "id": "Sunrise",
+    "name": "Sunrise",
+    "description": "A private investigator\u0027s ship. Comes equiped with a suite of forensic tools for investigative work. Capable of subduing smugglers and CIV ships with it\u0027s EMP launchers, and running away from anything more dangerous.",
+    "price": 59000,
+    "group": "sr",
+    "size": "small",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/sunrise-0.png"
+  },
+  {
+    "id": "Kuldi",
+    "name": "DWI Kuldi",
+    "description": "Equipped with a full chemistry lab and cryogenics, this ship is Dornan-Weryl Industrial\u0027s solution to most medical care.",
+    "price": 95000,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/kuldi-0.png"
+  },
+  {
+    "id": "Ledokol",
+    "name": "BYP Ledokol",
+    "description": "A massive shuttle originally made for ramming through compact debris fields. Trades off fire-power for thrust-power.",
+    "price": 425000,
+    "group": "ussp",
+    "size": "large",
+    "classes": [
+      "capital",
+      "frigate",
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/ledokol-0.png"
+  },
+  {
+    "id": "Scorpion",
+    "name": "PDV Scorpion",
+    "description": "An unusual variant from the same shipyards manufacturing Anacondas, using a mix of missile pods and 2 large-caliber cannons.",
+    "price": 113200,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate",
+      "pursuit",
+      "corvette"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/scorpion-0.png"
+  },
+  {
+    "id": "Zeros",
+    "name": "JIN Zeros",
+    "description": "A truck stop diner ship designed to resemble a semi-truck, complete with a EVA accessable dining room and a small cargo bay.",
+    "price": 112500,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "civilian",
+      "kitchen",
+      "botany"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/zeros-0.png"
+  },
+  {
+    "id": "Ladya",
+    "name": "TSF-SKR Ladya",
+    "description": "No description yet",
+    "price": 210200,
+    "group": "security",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "pursuit"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/ladya-0.png"
+  },
+  {
+    "id": "Parabellum",
+    "name": "Parabellum",
+    "description": "The parabellum is a patrol boat, made for escorting and unsuprisingly; patrolling stations and depots from any malicious ships. It\u0027s equipped with EMP launchers, as well as a hybrid EMP Missile launcher for more tougher encounters.",
+    "price": 92000,
+    "group": "sr",
+    "size": "medium",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/parabellum-0.png"
+  },
+  {
+    "id": "Arribane",
+    "name": "HES Arribane",
+    "description": "A shuttle purpose built by Horizon Energy for atmospheric work and gas mining. Living quarters are cramped, but comfortable.",
+    "price": 97500,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "atmospherics"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/arribane-0.png"
+  },
+  {
+    "id": "Dervi",
+    "name": "NEI Dervi",
+    "description": "Unique-shaped medical vessel with two protective shieldings. Comes with basic medbay, chemistry and cloning installation.",
+    "price": 64300,
+    "group": "medical",
+    "size": "small",
+    "classes": [
+      "medical"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/dervi-0.png"
+  },
+  {
+    "id": "Manus",
+    "name": "Manus",
+    "description": "A claw-shaped ship with good amount of firepower. Includes 4 DRAVONs, 2 Vanyks and 1 TARNYX.",
+    "price": 62125,
+    "group": "sr",
+    "size": "medium",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/manus-0.png"
+  },
+  {
+    "id": "Europa",
+    "name": "IDY Europa",
+    "description": "A repurposed interdyne medical frigate, with a focus on broadside firepower and armor.",
+    "price": 280650,
+    "group": "blackmarket",
+    "size": "large",
+    "classes": [
+      "pirate",
+      "frigate"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/europa-0.png"
+  },
+  {
+    "id": "Betelgeuse",
+    "name": "Betelgeuse",
+    "description": "Cramped salvage vessel that is ran on hopes and dreams, but includes one of the most powerful mining-grade shipguns in this sector.",
+    "price": 43500,
+    "group": "scrap",
+    "size": "small",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/betelgeuse-0.png"
+  },
+  {
+    "id": "Phantom",
+    "name": "IB Phantom",
+    "description": "Experimental ship with enormous thruster power. CTLA-25s included.",
+    "price": 90000,
+    "group": "medical",
+    "size": "small",
+    "classes": [
+      "medical"
+    ],
+    "engines": [
+      "bananium"
+    ],
+    "image": "/phantom-0.png"
+  },
+  {
+    "id": "Phaeron",
+    "name": "HES Phaeron",
+    "description": "Part of Horizon Energy\u0027s latest gas mining initiative, this gigantic gas tanker is able to harvest and store a frightening amount of gas. Perfect for plasma harvesting in the Colossus sector.",
+    "price": 52450,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "atmospherics"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/phaeron-0.png"
+  },
+  {
+    "id": "Antlion",
+    "name": "DIS Antlion",
+    "description": "A mining drone commissioned by Horizon Energy to the DIS. Basically a chunk of metal with a mining pulser slapped onto it. EVA suit and oxygen not included.",
+    "price": 7250,
+    "group": "custom",
+    "size": "micro",
+    "classes": [
+      "fighter",
+      "salvage"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/antlion-0.png"
+  },
+  {
+    "id": "Ant",
+    "name": "Ant",
+    "description": "Fragile but powerful combat vessel. Equipped with charonette and EMP launchers.",
+    "price": 75000,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/ant-0.png"
+  },
+  {
+    "id": "Hourglass",
+    "name": "BSB Hourglass",
+    "description": "The Hourglass is a bulky slow ship with two 90mm autocannons in the front. It has a medbay and a kitchen. Comes with FTL.",
+    "price": 120000,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/hourglass-0.png"
+  },
+  {
+    "id": "Neptune",
+    "name": "PDW Neptune",
+    "description": "Equipped with heavy frontal armor, 6 Fang heavy 90mms, and 2 Trident torpedoes. Good for dealing with heavier targets in head on brawls, but it lacks capabilities to fight nimble and small targets.",
+    "price": 152555,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate",
+      "pursuit",
+      "corvette"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/neptune-0.png"
+  },
+  {
+    "id": "Molotok",
+    "name": "BYP Molotok",
+    "description": "A broad-headed ram made to fit the connection port of the Ledokol.",
+    "price": 60000,
+    "group": "custom",
+    "size": "large",
+    "classes": [],
+    "engines": [],
+    "image": "/molotok-0.png"
+  },
+  {
+    "id": "Kestrel",
+    "name": "SKR Kestrel",
+    "description": "A small jump-capable science vessel meant for long-term missions. Comes with a living suite and a decent defensive armament for its size, though it is without much maneuvering performance.",
+    "price": 57500,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "science"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/kestrel-0.png"
+  },
+  {
+    "id": "Praetorian",
+    "name": "TSF-SKR Praetorian",
+    "description": "A more compact and advanced Archer, outfitted with a shield gen, 4 AK570s, 2 L85s, and 2 MARAUDERS. This ship has a military IFF designation.",
+    "price": 101520,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/praetorian-0.png"
+  },
+  {
+    "id": "Caput",
+    "name": "Caput",
+    "description": "Small drone-like vessel for \u0022Hit\u0026Run\u0022 strikes.",
+    "price": 19500,
+    "group": "sr",
+    "size": "small",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/caput-0.png"
+  },
+  {
+    "id": "Sekunda",
+    "name": "PPU Sekunda",
+    "description": "A USSP corpsman and fire support ship, comes with an FTL drive, tiny medical and chemical bay, light armament and a cramped interior. Produced by People\u0027s Production Union.",
+    "price": 60000,
+    "group": "ussp",
+    "size": "medium",
+    "classes": [
+      "patrol",
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/sekunda-0.png"
+  },
+  {
+    "id": "Piva",
+    "name": "PB Piva",
+    "description": "A small yet agile cargo shuttle, sporting a sideway shutter in order to facilitate the exchange of cargo in space without docking.",
+    "price": 18500,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/piva-0.png"
+  },
+  {
+    "id": "QJ490",
+    "name": "SKR QJ-490 Air Superiority Fighter",
+    "description": "Equipped with 4 Type-54C autopulsers and a light munitions bay.",
+    "price": 36500,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/qj490-0.png"
+  },
+  {
+    "id": "Fenrir",
+    "name": "BT-Y Fenrir",
+    "description": "A versalite support destroyer armed with an M381 Mass Driver, 2 Dravons, 2 Scattercannons, 4 20mm autocannons and outfitted with 2 Medium Size Mechbays capable of deploying S-2 and S-1 Mechs but does not come with Mechs. Well armored but slow.",
+    "price": 149500,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate",
+      "corvette"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/fenrir-0.png"
+  },
+  {
+    "id": "Thorax",
+    "name": "Thorax",
+    "description": "A light mech carrier and factory, including 4 different docks for assistance.",
+    "price": 63450,
+    "group": "sr",
+    "size": "medium",
+    "classes": [
+      "civilian"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/thorax-0.png"
+  },
+  {
+    "id": "Veska",
+    "name": "RG Veska",
+    "description": "A modified Ample that tears out the mining equipment and installs a light autocannon.",
+    "price": 6500,
+    "group": "custom",
+    "size": "micro",
+    "classes": [
+      "pirate",
+      "fighter"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/veska-0.png"
+  },
+  {
+    "id": "Windreign",
+    "name": "HES Windreign",
+    "description": "A massive, high-end Horizon Energy vessel built for long-term atmospheric work and gas mining. Carrier-capable with a small fleet of gas mining and salvage shuttles. Features a large, luxurious crew area. Recommended crew is 2-6.",
+    "price": 250000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "science",
+      "atmospherics",
+      "salvage"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/windreign-0.png"
+  },
+  {
+    "id": "Ethereal",
+    "name": "NS Ethereal",
+    "description": "A science vessel shaped like a butterfly. Comes facilities to accomodate botany and artifact research, as well as chemistry. Comes with a pool \u0026 bar.",
+    "price": 120000,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "science"
+    ],
+    "engines": [
+      "ame",
+      "solar"
+    ],
+    "image": "/ethereal-0.png"
+  },
+  {
+    "id": "Plutomkii",
+    "name": "DIS Pluto MK. II",
+    "description": "A light-weight cargo runner manufactured by DIS. The replacement of the venerable Pluto. Performing better than it\u0027s predecessor in every way. Larger cargo bay, tougher hull, faster top speed and sleeker design.",
+    "price": 32900,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/plutomkii-0.png"
+  },
+  {
+    "id": "Insect",
+    "name": "Insect",
+    "description": "Micro-fighter equipped with AK570. Drone server included.",
+    "price": 10500,
+    "group": "custom",
+    "size": "small",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "apu"
+    ],
+    "image": "/insect-0.png"
+  },
+  {
+    "id": "Shareholder",
+    "name": "DME Shareholder",
+    "description": "Cheap and affordable salvage vessel that comes with a comfortable lounge at the cost of leaving no budget for the rest.",
+    "price": 19000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/shareholder-0.png"
+  },
+  {
+    "id": "Valkyrie",
+    "name": "PDW Valkyrie",
+    "description": "An ancient phaethon dynasty interceptor. It\u0027s instruments are outdated and it\u0027s hull is rusted. However the Valkyrie still contends with vessels of similar class.",
+    "price": 93950,
+    "group": "shipyard",
+    "size": "medium",
+    "classes": [
+      "pursuit"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/valkyrie-0.png"
+  },
+  {
+    "id": "Vaquita",
+    "name": "DIS Vaquita",
+    "description": "A small craft equipped with all the necessary gear for optimal lone salvaging. Including camera mounted mining pulsers and a large thrusters for those quick getaways. \u0022Mine from the cockpit without lifting a finger !\u0022 or at least, that\u0027s how the DIS advertises it.",
+    "price": 37900,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/vaquita-0.png"
+  },
+  {
+    "id": "Serkesh",
+    "name": "RSC-Serkesh",
+    "description": "Iron handed heavy hitter of RedSail Corsairs, not the biggest, not the baddest and most definitely not the fastest. Put together on the backwater ports of the galaxy with half burned and half-missing andromeda blueprints, if andromeda is the lovechild of an artist and a surgeon. The RSC-Serkesh is the abandoned kid of a butcher and a hitman, she is not pretty, doesn\u0027t do any tricks, but she gets the job done. Armed with heavy ballistic weapons, it\u0027s a heavily armored bruiser that can exchange blows with any ship from short to medium range.",
+    "price": 262000,
+    "group": "scrap",
+    "size": "medium",
+    "classes": [
+      "pursuit",
+      "scrapyard"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/serkesh-0.png"
+  },
+  {
+    "id": "Promise",
+    "name": "DFNT Promise",
+    "description": "An old Medical Ship design dating back from the fracture era. It comes equipped with everything a hospital ship would want, as well as a spacious crew accomodations for long term shifts.",
+    "price": 106500,
+    "group": "medical",
+    "size": "medium",
+    "classes": [
+      "medical",
+      "chemistry"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/promise-0.png"
+  },
+  {
+    "id": "Intermission",
+    "name": "WA Intermission",
+    "description": "A large medical vessel with a lobby, bar, food, and medical care facilities, Capable of saving lives and then saving appetites all in one go.",
+    "price": 134750,
+    "group": "medical",
+    "size": "large",
+    "classes": [
+      "medical",
+      "chemistry",
+      "kitchen",
+      "botany"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/intermission-0.png"
+  },
+  {
+    "id": "Sagittarius",
+    "name": "HT Sagittarius",
+    "description": "The Sagittarius is the sirius\u0027 big brother, heavier firepower and more space while maintaing its chemistry bay.",
+    "price": 165000,
+    "group": "expedition",
+    "size": "large",
+    "classes": [
+      "expedition",
+      "chemistry",
+      "salvage"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/sagittarius-0.png"
+  },
+  {
+    "id": "Judiciary",
+    "name": "SHM Judiciary",
+    "description": "A refitted research vessel armed with expedition-rated combat equipment.",
+    "price": 70001,
     "group": "expedition",
     "size": "medium",
-    "classes": ["expedition", "cargo"],
-    "engines": ["teg"],
-    "image": "/atom.png"
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/judiciary-0.png"
   },
   {
-    "id": "nfsd-warden",
-    "name": "NFSD Warden",
-    "description": "Патрульный корабль для задержаний и сопровождения конвоев.",
-    "price": 189000,
-    "group": "nfsd",
+    "id": "Twilight",
+    "name": "SKR Twilight",
+    "description": "A small, fast jump-capable cargo transport with light rear-facing defensive armament.",
+    "price": 50000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/twilight-0.png"
+  },
+  {
+    "id": "Notch",
+    "name": "DIS Notch",
+    "description": "A small salvage shuttle featuring the bare minimum for any fresh aspiring scavenger in the sector. Fast and compact. A proud piece of Drake Industries\u0027 civilian spacecrafts collection.",
+    "price": 25900,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "salvage"
+    ],
+    "engines": [
+      "plasma"
+    ],
+    "image": "/notch-0.png"
+  },
+  {
+    "id": "Canister",
+    "name": "HES Canister",
+    "description": "An entry level gas mining ship, manufactured and fielded by Horizon Energy to send out new gas miners for their first taste of the industry.",
+    "price": 33000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "atmospherics"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/canister-0.png"
+  },
+  {
+    "id": "Tiger",
+    "name": "NSK Tiger",
+    "description": "A retired racing ship, the Tiger hull has been found in use by the Nova Sharks as both a hotrod, as well as a ludicriously fast haulcraft.",
+    "price": 32000,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/tiger-0.png"
+  },
+  {
+    "id": "Vulture",
+    "name": "UI Vulture",
+    "description": "A heavy material reclaiming ship manufacted by Ullman industries originally for deep-space mining and planet cracking, but has been up-gunned and sold to the Phaethon Dynasty in recent days. Equiped with a full array or PTKs and 3, 255mm Bofors cannons.",
+    "price": 285580,
+    "group": "blackmarket",
+    "size": "large",
+    "classes": [
+      "pirate",
+      "frigate"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/vulture-0.png"
+  },
+  {
+    "id": "Talon",
+    "name": "Talon",
+    "description": "A heavy syndicate interceptor, with 4 forward facing Fang autocannons and 2 sidemounted Adder scatter cannons",
+    "price": 45000,
+    "group": "syndicate",
+    "size": "small",
+    "classes": [
+      "syndicate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/talon-0.png"
+  },
+  {
+    "id": "Picses",
+    "name": "SKR Picses",
+    "description": "A compact but capable expedition ship, with durable hull plating too. This ship has a military IFF designation.",
+    "price": 77150,
+    "group": "expedition",
     "size": "medium",
-    "classes": ["patrol", "detainment"],
-    "engines": ["rtg"],
-    "image": "/atom.png"
+    "classes": [
+      "expedition"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/picses-0.png"
+  },
+  {
+    "id": "Ocelot",
+    "name": "TSF-SKR Ocelot",
+    "description": "Designed to work as a upgrade to the Spear for escort duty and patrols. Capable of revealing fully cloaked ships, and armed with 2x ASM-220s and 4x Type-54C autopulsers.",
+    "price": 68500,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "patrol"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/ocelot-0.png"
+  },
+  {
+    "id": "Autumn",
+    "name": "TSF-SKR Autumn",
+    "description": "A long-range cargo freighter. The cargo bay is (relatively) heavily armored with a plastitanium inner layer, and the ship is equipped with a heavy FTL drive. Armed with 4x 57mms.",
+    "price": 115320,
+    "group": "shipyard",
+    "size": "large",
+    "classes": [
+      "cargo"
+    ],
+    "engines": [
+      "ame"
+    ],
+    "image": "/autumn-0.png"
+  },
+  {
+    "id": "Syringe",
+    "name": "TSF-SKR Syringe",
+    "description": "A small ship meant as an escort and render aid to other TSF vessels. It has a small interior and is lightly armed.",
+    "price": 58500,
+    "group": "security",
+    "size": "small",
+    "classes": [
+      "patrol"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/syringe-0.png"
+  },
+  {
+    "id": "SpyglassMKII",
+    "name": "PDV Spyglass MKII",
+    "description": "One of salvage ships you\u0027ll see from the Phaethon Dynasty. This baby is capable of Xenoarcheology and salvage work.",
+    "price": 62500,
+    "group": "blackmarket",
+    "size": "small",
+    "classes": [
+      "pirate",
+      "science"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/spyglassmk2-0.png"
+  },
+  {
+    "id": "Spyglass",
+    "name": "UI Spyglass",
+    "description": "A Ullman Industries research ship. This baby is capable of Xenoarcheology and not a whole lot more.",
+    "price": 47500,
+    "group": "shipyard",
+    "size": "small",
+    "classes": [
+      "science"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/spyglass-0.png"
+  },
+  {
+    "id": "Hydra",
+    "name": "Hydra",
+    "description": "A syndicate missile corvette meant for stealthy hit and runs and harassment.",
+    "price": 135000,
+    "group": "syndicate",
+    "size": "medium",
+    "classes": [
+      "syndicate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/hydra-0.png"
+  },
+  {
+    "id": "Kupol",
+    "name": "BYP Kupol",
+    "description": "A gunnery unit made to make up for the lacking fire-power of the Ledokol.",
+    "price": 90000,
+    "group": "custom",
+    "size": "small",
+    "classes": [],
+    "engines": [],
+    "image": "/kupol-0.png"
+  },
+  {
+    "id": "Bastion",
+    "name": "PDV Bastion",
+    "description": "A long ranged design using 2 Hydra 220mm Cannons and 4 AK570 57mm autocannons, stand firm and sink the invaders.",
+    "price": 95500,
+    "group": "blackmarket",
+    "size": "medium",
+    "classes": [
+      "pirate"
+    ],
+    "engines": [
+      "uranium"
+    ],
+    "image": "/bastion-0.png"
   }
 ]
