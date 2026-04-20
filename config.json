@@ -16,7 +16,8 @@
             "blackmarket": "Династия Фаэтон",
             "shipyard": "Гражданские",
             "sr": "Колосс-Централ",
-            "ussp": "СССП"
+            "ussp": "СССП",
+            "scrapyard": "Заброшенные"
         },
         "classes": {
             "capital": "Флагман",
@@ -67,6 +68,7 @@
         "blackmarket": "#C0960B",
         "ussp": "#FE0000",
         "shipyard": "#0B9FC0",
-        "sr": "#0BC051"
+        "sr": "#0BC051",
+        "scrapyard": "#808080"
     }
 }

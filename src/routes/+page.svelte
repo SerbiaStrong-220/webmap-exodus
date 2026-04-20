@@ -23,7 +23,7 @@
 
 <div class="w-full p-8 flex flex-col md:flex-row gap-8 flex-1">
 	<Filter
-		className="sticky top-20"
+		className="md:sticky md:top-20 w-full md:w-fit"
 		{filters}
 		shipyardOptions={shuttleConfig.shipyard}
 		classOptions={shuttleConfig.classes}
