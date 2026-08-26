@@ -61,7 +61,7 @@ jobs:
       - name: Run Map Renderer
         run: |
           cd monolith
-          find Resources/Maps/_Mono/Shuttles Resources/Maps/_Exodus/Shuttles -name "*.yml" -type f -exec dotnet run --project Content.MapRenderer --no-build -- {} +
+          find Resources/SharedMaps/_Mono/Shuttles Resources/SharedMaps/_Exodus/Shuttles -name "*.yml" -type f -exec dotnet run --project Content.MapRenderer --no-build -- {} +
         continue-on-error: true
 
       - name: Checkout current repo
